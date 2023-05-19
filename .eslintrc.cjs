@@ -13,6 +13,6 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
     'react/react-in-jsx-scope': 'off',
-
   },
+  include: ['client', 'api']
 };
